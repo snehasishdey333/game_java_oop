@@ -3,10 +3,11 @@ package Game;
 public class Main {
 
     public static void main(String[] args) {
-        Player1 player = new Player1("Snehasish","sword",100);
-       System.out.println(player.getName());
-       System.out.println(player.getHealth());
-       System.out.println(player.getWeapon());
+        Player1 p1 = new Player1("Snehasish","sword",100);
+        Player2 p2=new Player2("Jeet","Gun",100,true);
+       System.out.println(p1.getName());
+       System.out.println(p1.getHealth());
+       System.out.println(p1.getWeapon());
 
 
     }
